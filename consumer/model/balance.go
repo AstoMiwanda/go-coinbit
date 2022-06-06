@@ -6,8 +6,8 @@ import (
 )
 
 type Balance struct {
-	CreatedAt *time.Time `json:"created_at,omitempty"`
-	UpdatedAt *time.Time `json:"updated_at,omitempty"`
+	UpdatedAt   *time.Time `json:"updated_at,omitempty"`
+	IsThreshold *bool      `json:"is_threshold,omitempty"`
 	BalanceAPI
 }
 

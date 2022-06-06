@@ -9,3 +9,7 @@ func TimePtr(time time.Time) *time.Time {
 func Float64Ptr(data float64) *float64 {
 	return &data
 }
+
+func BoolPtr(data bool) *bool {
+	return &data
+}
